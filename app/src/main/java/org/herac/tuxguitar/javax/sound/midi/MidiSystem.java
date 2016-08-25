@@ -25,6 +25,8 @@
 
 package org.herac.tuxguitar.javax.sound.midi;
 
+import com.sun.media.sound.SF2SoundbankReader;
+
 import org.herac.tuxguitar.javax.sound.ServiceProvider;
 import org.herac.tuxguitar.javax.sound.midi.spi.SoundbankReader;
 import org.herac.tuxguitar.javax.sound.sampled.CompoundControl;
@@ -33,9 +35,8 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
-
-
 
 
 /**
@@ -52,7 +53,7 @@ import java.util.List;
  * <p>
  * You cannot instantiate a <code>MidiSystem</code>; all the methods are
  * static.
- *
+ * <p>
  * <p>Properties can be used to specify default MIDI devices.
  * Both system properties and a properties file are considered.
  * The properties file is &quot;lib/sound.properties&quot; in the JRE
@@ -63,35 +64,35 @@ import java.util.List;
  * {@link java.util.Properties#load(InputStream) Properties.load}. The
  * following table lists the available property keys and which methods
  * consider them:
- *
+ * <p>
  * <table border=0>
- *  <tr>
- *   <th>Property Key</th>
- *   <th>Interface</th>
- *   <th>Affected Method</th>
- *  </tr>
- *  <tr>
- *   <td><code>javax.sound.midi.Receiver</code></td>
- *   <td>{@link javax.sound.midi.Receiver}</td>
- *   <td>{@link #getReceiver}</td>
- *  </tr>
- *  <tr>
- *   <td><code>javax.sound.midi.Sequencer</code></td>
- *   <td>{@link Sequencer}</td>
- *   <td>{@link #getSequencer}</td>
- *  </tr>
- *  <tr>
- *   <td><code>javax.sound.midi.Synthesizer</code></td>
- *   <td>{@link Synthesizer}</td>
- *   <td>{@link #getSynthesizer}</td>
- *  </tr>
- *  <tr>
- *   <td><code>javax.sound.midi.Transmitter</code></td>
- *   <td>{@link Transmitter}</td>
- *   <td>{@link #getTransmitter}</td>
- *  </tr>
+ * <tr>
+ * <th>Property Key</th>
+ * <th>Interface</th>
+ * <th>Affected Method</th>
+ * </tr>
+ * <tr>
+ * <td><code>javax.sound.midi.Receiver</code></td>
+ * <td>{@link javax.sound.midi.Receiver}</td>
+ * <td>{@link #getReceiver}</td>
+ * </tr>
+ * <tr>
+ * <td><code>javax.sound.midi.Sequencer</code></td>
+ * <td>{@link Sequencer}</td>
+ * <td>{@link #getSequencer}</td>
+ * </tr>
+ * <tr>
+ * <td><code>javax.sound.midi.Synthesizer</code></td>
+ * <td>{@link Synthesizer}</td>
+ * <td>{@link #getSynthesizer}</td>
+ * </tr>
+ * <tr>
+ * <td><code>javax.sound.midi.Transmitter</code></td>
+ * <td>{@link Transmitter}</td>
+ * <td>{@link #getTransmitter}</td>
+ * </tr>
  * </table>
- *
+ * <p>
  * The property value consists of the provider class name
  * and the device name, separated by the hash mark (&quot;#&quot;).
  * The provider class name is the fully-qualified
@@ -102,7 +103,7 @@ import java.util.List;
  * Either the class name, or the device name may be omitted.
  * If only the class name is specified, the trailing hash mark
  * is optional.
- *
+ * <p>
  * <p>If the provider class is specified, and it can be
  * successully retrieved from the installed providers,
  * the list of
@@ -111,7 +112,7 @@ import java.util.List;
  * do not provide a subsequent match, the list is retrieved
  * from {@link #getMidiDeviceInfo} to contain
  * all available <code>MidiDevice.Info</code> objects.
- *
+ * <p>
  * <p>If a device name is specified, the resulting list of
  * <code>MidiDevice.Info</code> objects is searched:
  * the first one with a matching name, and whose
@@ -126,7 +127,7 @@ import java.util.List;
  * suitable if it
  * implements neither Sequencer nor Synthesizer and provides
  * at least one Receiver or Transmitter, respectively.
- *
+ * <p>
  * For example, the property <code>javax.sound.midi.Receiver</code>
  * with a value
  * <code>&quot;com.sun.media.sound.MidiProvider#SunMIDI1&quot;</code>
@@ -486,6 +487,7 @@ public class MidiSystem {
 //
 //
 //
+
     /**
      * Constructs a MIDI sound bank by reading it from the specified stream.
      * The stream must point to
@@ -496,27 +498,28 @@ public class MidiSystem {
      * support the stream, and, if not, reset the stream's read pointer to
      * its original position.  If the input stream does not support this,
      * this method may fail with an IOException.
+     *
      * @param stream the source of the sound bank data.
      * @return the sound bank
      * @throws InvalidMidiDataException if the stream does not point to
-     * valid MIDI soundbank data recognized by the system
-     * @throws IOException if an I/O error occurred when loading the soundbank
+     *                                  valid MIDI soundbank data recognized by the system
+     * @throws IOException              if an I/O error occurred when loading the soundbank
      * @see InputStream#markSupported
      * @see InputStream#mark
      */
     public static Soundbank getSoundbank(InputStream stream)
-        throws InvalidMidiDataException, IOException {
+            throws InvalidMidiDataException, IOException {
 
         SoundbankReader sp = null;
         Soundbank s = null;
 
         List providers = getSoundbankReaders();
 
-        for(int i = 0; i < providers.size(); i++) {
-            sp = (SoundbankReader)providers.get(i);
+        for (int i = 0; i < providers.size(); i++) {
+            sp = (SoundbankReader) providers.get(i);
             s = sp.getSoundbank(stream);
 
-            if( s!= null) {
+            if (s != null) {
                 return s;
             }
         }
@@ -532,22 +535,22 @@ public class MidiSystem {
      * @param url the source of the sound bank data
      * @return the sound bank
      * @throws InvalidMidiDataException if the URL does not point to valid MIDI
-     * soundbank data recognized by the system
-     * @throws IOException if an I/O error occurred when loading the soundbank
+     *                                  soundbank data recognized by the system
+     * @throws IOException              if an I/O error occurred when loading the soundbank
      */
     public static Soundbank getSoundbank(URL url)
-        throws InvalidMidiDataException, IOException {
+            throws InvalidMidiDataException, IOException {
 
         SoundbankReader sp = null;
         Soundbank s = null;
 
         List providers = getSoundbankReaders();
 
-        for(int i = 0; i < providers.size(); i++) {
-            sp = (SoundbankReader)providers.get(i);
+        for (int i = 0; i < providers.size(); i++) {
+            sp = (SoundbankReader) providers.get(i);
             s = sp.getSoundbank(url);
 
-            if( s!= null) {
+            if (s != null) {
                 return s;
             }
         }
@@ -564,28 +567,29 @@ public class MidiSystem {
      * @param file the source of the sound bank data
      * @return the sound bank
      * @throws InvalidMidiDataException if the <code>File</code> does not
-     * point to valid MIDI soundbank data recognized by the system
-     * @throws IOException if an I/O error occurred when loading the soundbank
+     *                                  point to valid MIDI soundbank data recognized by the system
+     * @throws IOException              if an I/O error occurred when loading the soundbank
      */
     public static Soundbank getSoundbank(File file)
-        throws InvalidMidiDataException, IOException {
+            throws InvalidMidiDataException, IOException {
 
         SoundbankReader sp = null;
         Soundbank s = null;
 
         List providers = getSoundbankReaders();
 
-        for(int i = 0; i < providers.size(); i++) {
-            sp = (SoundbankReader)providers.get(i);
+        for (int i = 0; i < providers.size(); i++) {
+            sp = (SoundbankReader) providers.get(i);
             s = sp.getSoundbank(file);
 
-            if( s!= null) {
+            if (s != null) {
                 return s;
             }
         }
         throw new InvalidMidiDataException("cannot get soundbank from stream");
     }
-//
+
+    //
 //
 //
 //    /**
@@ -1064,7 +1068,10 @@ public class MidiSystem {
 //
 //
     private static List getSoundbankReaders() {
-        return getProviders(SoundbankReader.class);
+//        return getProviders(SoundbankReader.class);
+        List<Object> providers = new ArrayList<Object>();
+        providers.add(new SF2SoundbankReader());
+        return providers;
     }
 //
 //
@@ -1455,9 +1462,11 @@ public class MidiSystem {
 //    }
 //
 //
+
     /**
      * Obtains the set of services currently installed on the system
      * using sun.misc.Service, the SPI mechanism in 1.3.
+     *
      * @return a List of instances of providers for the requested service.
      * If no providers are available, a List of length 0 will be returned.
      */

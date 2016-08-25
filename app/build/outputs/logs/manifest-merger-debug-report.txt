@@ -21,30 +21,6 @@ uses-sdk
 ADDED from /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/src/main/AndroidManifest.xml:8:5-44
 MERGED from [com.android.support:gridlayout-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/24.1.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [TuxGuitar-android:editor-utils:unspecified] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/editor-utils/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [TuxGuitar-android:lib:unspecified] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/lib/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [TuxGuitar-android:lib:unspecified] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/lib/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
@@ -143,30 +119,6 @@ application
 ADDED from /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/src/main/AndroidManifest.xml:16:5-45:19
 MERGED from [com.android.support:gridlayout-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/24.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [TuxGuitar-android:editor-utils:unspecified] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/editor-utils/unspecified/AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [TuxGuitar-android:lib:unspecified] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/lib/unspecified/AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [TuxGuitar-android:lib:unspecified] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/lib/unspecified/AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
@@ -231,8 +183,6 @@ MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/wor
 MERGED from [com.android.support:support-v4:24.1.1] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/src/main/AndroidManifest.xml:20:9-41
-	android:supportsRtl
-		ADDED from [TuxGuitar-android:editor-utils:unspecified] /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/editor-utils/unspecified/AndroidManifest.xml:14:9-35
 	android:allowBackup
 		ADDED from /Users/liuzhenhui/Finger/work/TuxGuitar-android/app/src/main/AndroidManifest.xml:18:9-35
 	android:icon

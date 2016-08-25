@@ -21,30 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/lib/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="false"
-        revision="24.0.0"
-        sha1="62ac014c7b6174531eb43b09b59292700f2f01fa">
-        <dex dex="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/pre-dexed/debug/TuxGuitar-android-lib-unspecified_534b1dda49dff3bcb657b4a619b1d7cf6c56a290.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="false"
         revision="24.0.0"
         sha1="6d7d803871e3203465f71a163e7af104f807b446">
         <dex dex="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_22c5d8f1631c5302eb13f0af3e2b170113be5801.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/TuxGuitar-android/editor-utils/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="false"
-        revision="24.0.0"
-        sha1="5ce13970b0e89bcf88d26aa1b9da330664cf0e0c">
-        <dex dex="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/pre-dexed/debug/TuxGuitar-android-editor-utils-unspecified_942c1d3efbb46976e8a1fa4b4e91e8cba6356b7f.jar" />
     </item>
     <item
         is-multidex="false"

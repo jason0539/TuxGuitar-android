@@ -1,1 +1,1 @@
-include ':app', ':lib', ':editor-utils'
+include ':app'

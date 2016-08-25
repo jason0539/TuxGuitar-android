@@ -25,6 +25,7 @@
 
 package org.herac.tuxguitar.javax.sound.sampled;
 
+import org.herac.tuxguitar.android.sound.TGMixerProvider;
 import org.herac.tuxguitar.javax.sound.ServiceProvider;
 import org.herac.tuxguitar.javax.sound.sampled.spi.AudioFileReader;
 import org.herac.tuxguitar.javax.sound.sampled.spi.FormatConversionProvider;
@@ -34,6 +35,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
@@ -1122,7 +1124,9 @@ public class AudioSystem {
      * Obtains the set of MixerProviders on the system.
      */
     private static List getMixerProviders() {
-        return getProviders(MixerProvider.class);
+        List<Object> providers = new ArrayList<Object>();
+        providers.add(new TGMixerProvider());
+        return providers;
     }
 
 
