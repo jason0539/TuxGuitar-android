@@ -192,12 +192,12 @@
         "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
         "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",

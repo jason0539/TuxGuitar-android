@@ -25,7 +25,7 @@
         jumboMode="false"
         optimize="false"
         revision="24.0.0"
-        sha1="4618f4c905853fd5fbbc62ad512c4c7e18375a39">
+        sha1="62ac014c7b6174531eb43b09b59292700f2f01fa">
         <dex dex="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/pre-dexed/debug/TuxGuitar-android-lib-unspecified_534b1dda49dff3bcb657b4a619b1d7cf6c56a290.jar" />
     </item>
     <item
@@ -43,7 +43,7 @@
         jumboMode="false"
         optimize="false"
         revision="24.0.0"
-        sha1="10b7c67e664d33fe3f79e4c0fb90da63ab91f4f8">
+        sha1="5ce13970b0e89bcf88d26aa1b9da330664cf0e0c">
         <dex dex="/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/pre-dexed/debug/TuxGuitar-android-editor-utils-unspecified_942c1d3efbb46976e8a1fa4b4e91e8cba6356b7f.jar" />
     </item>
     <item

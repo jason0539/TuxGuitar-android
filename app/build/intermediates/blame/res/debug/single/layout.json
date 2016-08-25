@@ -116,12 +116,12 @@
         "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_media_cancel_action.xml"
     },
     {
-        "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/layout/view_measure_clean_dialog.xml",
-        "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/src/main/res/layout/view_measure_clean_dialog.xml"
-    },
-    {
         "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/layout/view_measure_clean_dialog.xml",
+        "source": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/src/main/res/layout/view_measure_clean_dialog.xml"
     },
     {
         "merged": "/Users/liuzhenhui/Finger/work/TuxGuitar-android/app/build/intermediates/res/merged/debug/layout/view_clef_dialog.xml",
