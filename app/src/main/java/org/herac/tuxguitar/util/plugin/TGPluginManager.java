@@ -2,6 +2,13 @@ package org.herac.tuxguitar.util.plugin;
 
 import org.herac.tuxguitar.android.midi.port.gervill.MidiOutputPortProviderPlugin;
 import org.herac.tuxguitar.android.util.FingerPluginToggle;
+import org.herac.tuxguitar.io.gpx.GPXInputStreamPlugin;
+import org.herac.tuxguitar.io.gtp.GP1InputStreamPlugin;
+import org.herac.tuxguitar.io.gtp.GP2InputStreamPlugin;
+import org.herac.tuxguitar.io.gtp.GP3InputStreamPlugin;
+import org.herac.tuxguitar.io.gtp.GP4InputStreamPlugin;
+import org.herac.tuxguitar.io.gtp.GP5InputStreamPlugin;
+import org.herac.tuxguitar.io.ptb.PTInputStreamPlugin;
 import org.herac.tuxguitar.resource.TGResourceManager;
 import org.herac.tuxguitar.util.TGContext;
 import org.herac.tuxguitar.util.TGServiceReader;
@@ -56,6 +63,19 @@ public class TGPluginManager {
             //lzh把本来从插件中反射的类自己加入这里
             if (!FingerPluginToggle.isUsePlugin()) {
                 plugins.add(new MidiOutputPortProviderPlugin());
+                plugins.add(new PTInputStreamPlugin());
+                plugins.add(new GP1InputStreamPlugin());
+                plugins.add(new GP2InputStreamPlugin());
+                plugins.add(new GP3InputStreamPlugin());
+                plugins.add(new GP4InputStreamPlugin());
+                plugins.add(new GP5InputStreamPlugin());
+                plugins.add(new GPXInputStreamPlugin());
+                plugins.add(new org.herac.tuxguitar.io.tg.v12.TGInputStreamPlugin());
+                plugins.add(new org.herac.tuxguitar.io.tg.v11.TGInputStreamPlugin());
+                plugins.add(new org.herac.tuxguitar.io.tg.v10.TGInputStreamPlugin());
+                plugins.add(new org.herac.tuxguitar.io.tg.v09.TGInputStreamPlugin());
+                plugins.add(new org.herac.tuxguitar.io.tg.v08.TGInputStreamPlugin());
+                plugins.add(new org.herac.tuxguitar.io.tg.v07.TGInputStreamPlugin());
             }
         } catch (Throwable throwable) {
             TGErrorManager.getInstance(this.context).handleError(new TGPluginException(PLUGIN_ERROR_ON_LOOKUP, throwable));

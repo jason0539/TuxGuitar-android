@@ -80,7 +80,8 @@ public class TGResourceLoaderImpl implements TGResourceLoader {
 		if(!fileNames.isEmpty()) {
 			return new DexClassLoader(this.createPath(fileNames), optimizedDirectory, this.createLibraryPath(), context.getClassLoader());
 		}
-		return null;
+		//lzh 原来是返回null,但是没有插件时返回null会,crash
+		return activity.getClassLoader();
 	}
 
 	public List<String> unpackPlugins(String path) {
