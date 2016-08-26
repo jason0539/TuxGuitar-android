@@ -27,6 +27,7 @@ package org.herac.tuxguitar.javax.sound.midi;
 
 import com.sun.media.sound.SF2SoundbankReader;
 
+import org.herac.tuxguitar.android.util.FingerPluginToggle;
 import org.herac.tuxguitar.javax.sound.ServiceProvider;
 import org.herac.tuxguitar.javax.sound.midi.spi.SoundbankReader;
 import org.herac.tuxguitar.javax.sound.sampled.CompoundControl;
@@ -1068,10 +1069,15 @@ public class MidiSystem {
 //
 //
     private static List getSoundbankReaders() {
-//        return getProviders(SoundbankReader.class);
-        List<Object> providers = new ArrayList<Object>();
-        providers.add(new SF2SoundbankReader());
-        return providers;
+
+        if (FingerPluginToggle.isUsePlugin()) {
+            return getProviders(SoundbankReader.class);
+        } else {
+            //lzh 直接指定所使用的SoundbankReader,不去插件库中加载（已经移除该插件）
+            List<Object> providers = new ArrayList<>();
+            providers.add(new SF2SoundbankReader());
+            return providers;
+        }
     }
 //
 //
